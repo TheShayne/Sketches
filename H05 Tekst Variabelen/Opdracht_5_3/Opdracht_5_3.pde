@@ -1,10 +1,13 @@
-int gewicht = 37;
-int lengte = 152;
-String BMI = "";
-BMI = "gewicht/ (lengte * lengte)";
+float gewicht = 110;
+float lengte = 1.(80;
+float totaal = gewicht / (lengte * lengte);
 
-print("Met een gewicht van ");
-println(gewicht);
-print(" kg en een lengte van ");
-println(lengte);
-print(" cm, is jouw BMI 16");
+String een = "met een gewicht van ";
+String twee = " kg en een lengte van ";
+String drie = " meter, is jouw BMI ";
+
+totaal *= 10;
+totaal = (int) totaal;
+totaal /= 10;
+
+println(een + gewicht + twee + lengte + drie + totaal);
